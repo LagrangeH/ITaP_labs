@@ -17,4 +17,4 @@ if __name__ == '__main__':
     # Since the task does not say what exactly to count,
     # we will grant such a right to the user.
     # We also use set to avoid recalculating the same value.
-    main(*set(input("Enter data for counting separated by a space: ").split(' ')))
+    main(*set(input("Enter data for counting separated by a space: ").split(r'\s')))

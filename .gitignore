@@ -140,3 +140,9 @@ cython_debug/
 
 # PyCharm
 .idea/
+
+# cProfile
+*.prof
+
+# User's drafts
+draft*

@@ -1,5 +1,5 @@
 # ITaP_labs
-Конвертировать сразу все jupyter notebooks в pdf-файлы:
+Конвертировать сразу все jupyter notebooks в pdf-файлы (запустить в корне репозитория):
 ```sh
 jupyter nbconvert --to pdf labs/*/*.ipynb --FilesWriter.build_directory=labs/export_jupyter
 ```

@@ -146,3 +146,6 @@ cython_debug/
 
 # User's drafts
 draft*
+
+# Exported PDFs
+labs/export_jupyter/*.pdf

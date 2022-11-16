@@ -148,4 +148,4 @@ cython_debug/
 draft*
 
 # Exported PDFs
-labs/export_jupyter/*.pdf
+labs/export_jupyter/

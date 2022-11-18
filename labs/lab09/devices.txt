@@ -1,4 +1,3 @@
-/---START---/
 Cisco 819 Router
 Cisco 881 Router
 Cisco 888 Router
@@ -14,4 +13,3 @@ Cisco Meraki MX64W Security Appliance
 Cisco Meraki MX84 Security Appliance
 Cisco Meraki MC74 VoIP Phone
 Cisco 3860 Catalyst Switch
-/---END---/

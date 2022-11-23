@@ -1,5 +1,5 @@
 # ITaP_labs
-Изначально нужно установить `jupyter`, [pandoc](https://pandoc.org/installing.html) и [TeX](https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex) и зависимости Python.
+Изначально нужно установить `jupyter`, [pandoc](https://pandoc.org/installing.html) и [TeX](https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex) и зависимости окружения.
 
 Конвертировать сразу все jupyter notebooks в pdf-файлы (запустить в корне репозитория, выполнение может занять несколько минут):
 ```sh

@@ -1,6 +1,12 @@
 # ITaP_labs
+Изначально нужно установить `jupyter`, [pandoc](https://pandoc.org/installing.html) и [TeX](https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex) и зависимости Python.
+
 Конвертировать сразу все jupyter notebooks в pdf-файлы (запустить в корне репозитория, выполнение может занять несколько минут):
 ```sh
-jupyter nbconvert --to pdf labs/*/*.ipynb --FilesWriter.build_directory=labs/export_jupyter
+jupyter nbconvert --to webpdf labs/*/*.ipynb --FilesWriter.build_directory=labs/export_jupyter --allow-chromium-download
 ```
-Могут вылететь исключения о том, что не установлены все зависимости - тогда нужно перейти по соответствующим ссылкам и установить
+При повторном запуске указывать флаг `--allow-chromium-download` не нужно:
+```sh
+jupyter nbconvert --to webpdf labs/*/*.ipynb --FilesWriter.build_directory=labs/export_jupyter
+```
+Вместо `labs/*/*.ipynb` могут быть указаны любые другие notebooks или их маски.

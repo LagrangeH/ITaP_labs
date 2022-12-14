@@ -146,7 +146,8 @@ cython_debug/
 
 # User's drafts
 draft*
-test.*
+export_jupyter/test.ipynb
 
 # Exported PDFs
 labs/export_jupyter/
+labs/lab*/lab*.pdf
